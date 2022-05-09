@@ -31,8 +31,8 @@ Please download the GeneBody *Test10* subset from Onedrive [link](https://hkustc
   ├───amanda
   ├───barry
 
-then cd in core, run python load_genebody.py
-then you can get file like this:   
+then cd in core, run python load_genebody.py --subject amanda --split train
+then you can the train data h5 file of amanda, and you can change the subject and split to get the rest data files, like this structure:   
 
 ├──data/
 ├───genebody/
